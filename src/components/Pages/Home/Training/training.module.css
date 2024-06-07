@@ -1,0 +1,66 @@
+.wrapper {
+  background-image: url("/assets/himadri-bg.png");
+}
+.training_container h2 {
+  font-size: var(--step-8);
+  text-align: center;
+}
+.items_content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: var(--training-bg);
+  border: 1px solid var(--para-color);
+}
+.items_section {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  padding: 7px;
+}
+.items_icon svg {
+  background-color: var(--button-color);
+  border-radius: 50%;
+  font-size: var(--step-4);
+  color: var(--white);
+}
+.items_list {
+  margin-left: 15px;
+}
+.items_list p {
+  color: var(--black);
+  font-size: var(--step--1);
+  font-weight: 600;
+  color: var(--para-color);
+}
+.items_list span {
+  color: var(--para-color);
+  font-size: var(--step--2);
+}
+/* .items_content {
+  border: 2px solid red;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: var(--training-bg);
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+.items_icon svg {
+  background-color: var(--button-color);
+  border-radius: 50%;
+  font-size: var(--step-4);
+  color: var(--white);
+}
+.items_list {
+  margin-left: 15px;
+}
+.items_list p {
+  color: var(--black);
+  font-size: var(--step-4);
+  font-weight: 600;
+  color: var(--para-color);
+} */

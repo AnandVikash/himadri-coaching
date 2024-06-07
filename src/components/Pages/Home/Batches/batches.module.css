@@ -1,0 +1,59 @@
+.wrapper_img {
+  background-image: url("/assets/wb-bg.jpg");
+
+  /* Set a specific height */
+  /* padding: 40px 0px; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.wrapper_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgb(187, 34, 34);
+  opacity: 0.5;
+}
+
+.wrapper_text {
+  padding: 20px 0px;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.wrapper_text h2 {
+  color: var(--secondtitle);
+  font-size: var(--step-8);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.batches_container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin: 10px;
+  padding: 7px;
+}
+.batches_icon svg {
+  background-color: var(--white);
+  border-radius: 50%;
+  font-size: var(--step-4);
+  color: var(--black);
+}
+.batches_list {
+  margin-left: 15px;
+}
+.batches_list p {
+  color: var(--white) !important;
+  font-size: var(--step-1);
+  /* font-weight: 600; */
+  color: var(--para-color);
+}

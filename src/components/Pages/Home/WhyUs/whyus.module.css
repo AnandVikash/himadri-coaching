@@ -1,0 +1,49 @@
+.wrapper {
+  background-color: var(--bg);
+}
+.whyus_heading {
+  padding: 20px 0px;
+}
+.whyus_heading h2 {
+  font-size: var(--step-8);
+  text-align: center;
+}
+.whyus_heading p {
+  /* width: 50%; */
+  margin: 0 auto;
+  color: var(--black);
+  font-size: var(--step--2);
+  padding: 20px 0px;
+}
+.whyus_heading span {
+  font-size: var(--step-6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--button-color);
+}
+.box_container {
+  padding: 5px 0px;
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box_items {
+  background-color: var(--white);
+  width: 23%;
+  padding: 20px 10px;
+  margin: 1% 0%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.box_items svg {
+  font-size: var(--step-10);
+  color: var(--button-color);
+}
+.box_items p {
+  width: 90%;
+  font-size: var(--step--2);
+  color: var(--para-color);
+  padding-top: 10px;
+}

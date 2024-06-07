@@ -1,0 +1,53 @@
+#mysidenav > div {
+  position: fixed;
+  top: 40%;
+  right: -200px;
+  z-index: 999999;
+  padding: 10px;
+  width: 250px;
+  transition: 0.5s;
+}
+#mysidenav > div:hover {
+  right: 0px;
+}
+#mysidenav a {
+  font-size: 19px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+#mysidenav svg {
+  font-size: 25px;
+  color: #fff;
+  margin-right: 20px;
+  font-weight: bold;
+}
+#sidenavappointment {
+  background: linear-gradient(45deg, #25d366, #128c7e, #075e54);
+}
+#sidenavphone {
+  margin-top: 45px;
+  background: var(--button-color);
+}
+#cartItem {
+  margin-top: -45px;
+  background: linear-gradient(45deg, #00849d, #00a5c4);
+}
+#new-icon {
+  background-color: var(--primary-pink);
+  border-radius: 3px;
+  position: absolute;
+  top: -12px;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+#icon {
+  color: var(--primary-white);
+  padding: 2px 3px 1px 4px;
+  font-size: var(--step--1);
+  /* line-height: 9px; */
+}

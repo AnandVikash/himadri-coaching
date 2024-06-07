@@ -1,7 +1,20 @@
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
+import dynamic from "next/dynamic";
+//swiper css
+import "swiper/css";
+import "swiper/css/navigation";
 
-const inter = Inter({ subsets: ["latin"] });
+const Header = dynamic(() => import("@/components/Layout/Header/Header"), {
+  ssr: false,
+});
+
+import Footer from "@/components/Layout/Footer/Footer";
+import Whatsapp from "@/components/Ui/SideNavWidgets/Whatsapp/Whatsapp";
+const inter = Roboto({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +24,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        {children}
+        <Footer />
+        <Whatsapp />
+      </body>
     </html>
   );
 }
