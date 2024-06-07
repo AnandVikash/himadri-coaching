@@ -39,9 +39,6 @@ export default function AboutUS() {
                     Sister is IPS, Brother is IAS , Brothe’rs Wife also IAS
                     Youngest Sister is IAS
                   </li>
-                </ul>
-                <ul className={styles.listing_items}>
-                  <p>Under Sir Mentorship </p>
                   <li>Sreenidhi Become Youngest IAS Sub District Magistrate</li>
                   <li>Nirmala become KSPS officer</li>
                 </ul>

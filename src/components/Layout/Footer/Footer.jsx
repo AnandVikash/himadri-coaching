@@ -31,7 +31,7 @@ export default function Footer() {
                 <strong>Email Address :</strong> info@himalaiias.com
               </p>
               <p className="ptag">
-                <strong>On-Call Service :</strong> +918670384077
+                <strong>On-Call Service :</strong> +917975057610
               </p>
             </section>
             <section className={styles.footer_details}>
@@ -80,6 +80,19 @@ export default function Footer() {
                 </li>
               </ul>
             </section>
+          </section>
+
+          {/* Branches */}
+          <section className={styles.branches}>
+            <h3 className="title">Classes At</h3>
+            <p className="ptag">
+              KALYANNAGAR | HOSAKOTE | MARATHHALLI | KORAMANGALA | JAYANAGAR |
+              VIJAYANAGAR |
+            </p>
+            <span>
+              RAJAJINAGAR | MALLESHWARAM | 8 TH MILE | SAHAKARNAGAR | ONLINE
+              LIVE
+            </span>
           </section>
         </section>
         <section className={styles.copy_rights}>

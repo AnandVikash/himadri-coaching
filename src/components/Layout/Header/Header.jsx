@@ -22,8 +22,8 @@ export default function Header() {
           <section className={styles.header}>
             <section className={styles.header_logo}>
               <Image
-                src={"/assets/himadri-logo.png"}
-                width={170}
+                src={"/assets/himadri-logo-final.png"}
+                width={80}
                 height={50}
                 alt="Picture of the author"
               />
@@ -39,7 +39,7 @@ export default function Header() {
                     <IoCallSharp />
                   </section>
                   <section className={styles.header_contact_info}>
-                    <a>+918670384077</a>
+                    <a>+917975057610</a>
                   </section>
                 </li>
               </ul>

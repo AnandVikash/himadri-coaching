@@ -16,7 +16,7 @@ export default function Index() {
           </a>
         </div> */}
         <div id="sidenavphone">
-          <a href="tel:+918670384077" target="_blank">
+          <a href="tel:+917975057610" target="_blank">
             <IoCallSharp />
             Call Us
           </a>

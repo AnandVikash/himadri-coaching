@@ -54,7 +54,26 @@
   justify-content: space-between;
   width: 80%;
 }
-
+.branches {
+  padding-bottom: 20px;
+}
+.branches h3 {
+  text-align: center;
+  padding: 3px 0px;
+  margin: 0 auto;
+  font-size: var(--step-5);
+}
+.branches p {
+  width: 60%;
+  margin: 0 auto;
+  /* font-size: var(--step-4); */
+}
+.branches span {
+  color: var(--white);
+  width: 51%;
+  display: block;
+  margin: 0 auto;
+}
 .copy_rights {
   border-top: 2px solid grey;
   display: flex;
