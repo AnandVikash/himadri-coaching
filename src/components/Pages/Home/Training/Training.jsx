@@ -9,7 +9,10 @@ export default function Training() {
       <section className={styles.content}>
         <Container width>
           <section className={styles.training_container}>
-            <h2>Best Exclusive Separate Classes for IAS from Himalai </h2>
+            <h2>Best Exclusive Separate Classes for IAS from Himadri </h2>
+            <p className="ptag">
+              (Sister concern of Himalai IAS classes since 1998)
+            </p>
             <section className={styles.items_content}>
               <section className={styles.items_section}>
                 <section className={styles.items_icon}>

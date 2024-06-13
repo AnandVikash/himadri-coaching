@@ -47,6 +47,7 @@
 .header_contact_info a {
   font-size: var(--step-0);
   font-weight: bold;
+  color: var(--black);
 }
 
 @media (max-width: 800px) {

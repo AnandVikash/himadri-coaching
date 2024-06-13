@@ -37,7 +37,7 @@
   background-color: var(--button-color);
 }
 .bottomwhatsapp {
-  background-color: var(--button-color) !important;
+  background-color: #075e54 !important;
 }
 .mobile_bottom_img i {
   font-size: var(--step-5);

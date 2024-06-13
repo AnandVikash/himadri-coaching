@@ -45,48 +45,9 @@ export default function Testimonials() {
                 <article className={styles.slide_review}>
                   <section className={styles.slide_author}>
                     <Image
-                      src={"/assets/google-01.png"}
-                      width={100}
-                      height={100}
-                      alt="Picture of the author"
-                      className={styles.about_img}
-                    />
-                  </section>
-                  <section className={styles.author_container}>
-                    <div className={styles.author_text}>
-                      <p className="ptag">
-                        It has been enlightening to prepare for my Civil Service
-                        Examination under Himalai and Keshav Sir&apos;s
-                        guidance.The motivation and guidance provided helped my
-                        preparations to immense level. Keshav sir is a highly
-                        affable person whose relation I like to cherish for
-                        lifelong.
-                      </p>
-                    </div>
-                    <div className={styles.author_details}>
-                      <div>
-                        <span>Sreenidhi IAS</span>
-                        <Image
-                          src={"/assets/5-star.png"}
-                          width={200}
-                          height={30}
-                          alt="Picture of the author"
-                          className={styles.about_star}
-                        />
-                      </div>
-                    </div>
-                  </section>
-                </article>
-              </section>
-            </SwiperSlide>
-            <SwiperSlide>
-              <section className={styles.slider_review_item}>
-                <article className={styles.slide_review}>
-                  <section className={styles.slide_author}>
-                    <Image
-                      src={"/assets/google-01.png"}
-                      width={100}
-                      height={100}
+                      src={"/assets/pemmaia.png"}
+                      width={150}
+                      height={150}
                       alt="Picture of the author"
                       className={styles.about_img}
                     />
@@ -122,9 +83,9 @@ export default function Testimonials() {
                 <article className={styles.slide_review}>
                   <section className={styles.slide_author}>
                     <Image
-                      src={"/assets/google-01.png"}
-                      width={100}
-                      height={100}
+                      src={"/assets/dilip.png"}
+                      width={150}
+                      height={150}
                       alt="Picture of the author"
                       className={styles.about_img}
                     />
@@ -159,9 +120,9 @@ export default function Testimonials() {
                 <article className={styles.slide_review}>
                   <section className={styles.slide_author}>
                     <Image
-                      src={"/assets/google-01.png"}
-                      width={100}
-                      height={100}
+                      src={"/assets/abdul.png"}
+                      width={150}
+                      height={150}
                       alt="Picture of the author"
                       className={styles.about_img}
                     />
@@ -194,14 +155,14 @@ export default function Testimonials() {
               </section>
             </SwiperSlide>
           </Swiper>
-          <div className={styles.team_buttons}>
+          {/* <div className={styles.team_buttons}>
             <button className="button-prev--testimonial-slide">
               <FaArrowLeft />
             </button>
             <button className="button-next-testimonial-slide">
               <FaArrowRight />
             </button>
-          </div>
+          </div> */}
           {/* <a href="">Book Appointment </a> */}
         </section>
       </Container>

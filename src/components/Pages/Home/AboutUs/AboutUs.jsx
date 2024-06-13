@@ -26,18 +26,19 @@ export default function AboutUS() {
                   <span>About Me</span>
                   <p className="ptag">
                     Since 1998, Master Mentor Keshav Sir made 3000+ Indian
-                    Administrators IAS, IPS, IFS, IRS, KAS And Armed Force
+                    Administrators IAS, IPS, IFS, IRS, KAS and Armed Force
                     Officers CDS, AFCAT, INET, AC CAPF And Central Government
-                    Officers Group A &B officers Sir Students Serving in more
-                    than 17 States and Union Territories
+                    Officers Group &apos;A&apos; & &apos;B&apos; officers Sir
+                    Students Serving in more than 17 States and Union
+                    Territories
                   </p>
                 </div>
                 <ul className={styles.listing_items}>
                   <p>Under Sir Mentorship</p>
                   <li>
-                    Yogesh Mishra become Commissioner Today Yogesh Mishra Eldest
-                    Sister is IPS, Brother is IAS , Brothe’rs Wife also IAS
-                    Youngest Sister is IAS
+                    Yogesh Mishra become Commissioner, Today Yogesh Mishra
+                    Eldest Sister is IPS, Brother is IAS, Brothe&apos;rs Wife
+                    also IAS, Youngest Sister is IAS
                   </li>
                   <li>Sreenidhi Become Youngest IAS Sub District Magistrate</li>
                   <li>Nirmala become KSPS officer</li>

@@ -31,7 +31,9 @@ export default function Home() {
               <i className="fa-regular fa-calendar-check"></i>
             </div>
             <div className={styles.mobile_bottom_text}>
-              <a href="tel:+917975057610"> Enquire Now</a>
+              <a href="https://api.whatsapp.com/send/?phone=9740346715&text=Hi,I%20have%20a%20query">
+                Whats App
+              </a>
             </div>
           </div>
           <div className={`${styles.mobile_bottom_1} ${styles.bottomcall}`}>
@@ -39,7 +41,7 @@ export default function Home() {
               {/* <i className="fa-solid fa-phone"></i> */}
             </div>
             <div className={styles.mobile_bottom_text}>
-              <a href="tel:+917975057610"> Call Us</a>
+              <a href="tel:+919740346715"> Call Us</a>
             </div>
           </div>
         </div>
