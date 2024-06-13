@@ -9,29 +9,47 @@ export default function Team() {
     <section className={`${styles.wrapper} margin`}>
       <section className={styles.content}>
         <Container width>
-          <section className={styles.team_container}>
-            <section className={styles.team_content}>
+          <section className={styles.about_container}>
+            <section className={styles.about_section}>
               <section>
                 <Image
                   src="https://placehold.jp/400x400.png"
                   width={400}
                   height={400}
                   alt="Picture of the author"
+                  // style={{ objectFit: "cover" }}
                 />
               </section>
-              <section className={styles.team_text}>
+              <section>
                 <h2>Join The Success Team Creators Of</h2>
-                <section className={styles.team_success}>
-                  <article>
-                    <TiTick />
-                  </article>
-                  <article>IAS 1st RANK</article>
-                </section>
-                <section className={styles.team_success}>
-                  <article>
-                    <TiTick />
-                  </article>
-                  <article>IAS 1st RANK</article>
+                <ul className={styles.ranker_details}>
+                  <li className={styles.ranker_text}>
+                    <span>
+                      <TiTick />
+                    </span>
+                    <p className="ptag">IAS 1st Rank</p>
+                  </li>
+                  <li className={styles.ranker_text}>
+                    <span>
+                      <TiTick />
+                    </span>{" "}
+                    <p className="ptag">Youngest IPS Officers</p>
+                  </li>
+                  <li className={styles.ranker_text}>
+                    <span>
+                      <TiTick />
+                    </span>{" "}
+                    <p className="ptag">KAS 1st Rank</p>
+                  </li>
+                  <li className={styles.ranker_text}>
+                    <span>
+                      <TiTick />
+                    </span>{" "}
+                    <p className="ptag">3000+ selections in Elite Services</p>
+                  </li>
+                </ul>
+                <section className={styles.ranker_name}>
+                  <h3>Mr. Mithun IPS</h3>
                 </section>
               </section>
             </section>

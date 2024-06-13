@@ -30,17 +30,7 @@ export default function Banner() {
           <SwiperSlide>
             <section className={styles.slider_item}>
               <Image
-                src="https://placehold.jp/1520x520.png"
-                width={1520}
-                height={520}
-                alt="Picture of the author"
-              />
-            </section>
-          </SwiperSlide>
-          <SwiperSlide>
-            <section className={styles.slider_item}>
-              <Image
-                src="https://placehold.jp/1520x520.png"
+                src={"/assets/ban-final.jpg"}
                 width={1520}
                 height={520}
                 alt="Picture of the author"
@@ -49,14 +39,23 @@ export default function Banner() {
           </SwiperSlide>
         </Swiper>
       </section>
-      <div className={styles.swiper_button}>
+      <section className={styles.banner_img}>
+        <Image
+          src={"/assets/ban-mobile.jpg"}
+          width={360}
+          height={330}
+          alt="Picture of the author"
+          className={styles.mobile_banner}
+        />
+      </section>
+      {/* <div className={styles.swiper_button}>
         <button className="button-prev-slide-banner">
           <GrFormPrevious />
         </button>
         <button className="button-next-slide-banner">
           <GrFormNext />
         </button>
-      </div>
+      </div> */}
     </section>
   );
 }

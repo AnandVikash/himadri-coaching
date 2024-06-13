@@ -2,25 +2,24 @@
   position: fixed;
   left: 2%;
   bottom: 5%;
-
   z-index: 999;
-
   background-color: #2dd46c;
-
   width: calc(var(--step-10) + 25px);
   height: calc(var(--step-10) + 25px);
 
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 50%;
-
   cursor: pointer;
 }
 
 .wrapper svg {
   color: var(--white);
-
   font-size: var(--step-9);
+}
+@media (max-width: 700px) {
+  .wrapper {
+    display: none;
+  }
 }

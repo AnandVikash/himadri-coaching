@@ -22,15 +22,15 @@ export default function Header() {
           <section className={styles.header}>
             <section className={styles.header_logo}>
               <Image
-                src={"/assets/himadri-logo-final.png"}
-                width={80}
+                src={"/assets/logo-ias.png"}
+                width={180}
                 height={50}
                 alt="Picture of the author"
               />
-              <section className={styles.header_content}>
+              {/* <section className={styles.header_content}>
                 <h2 className="title">Himadri</h2>
                 <p className="ptag">(sister concern of Himalai since 1998)</p>
-              </section>
+              </section> */}
             </section>
             <section className={styles.header_contact}>
               <ul>

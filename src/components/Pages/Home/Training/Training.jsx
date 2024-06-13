@@ -16,7 +16,7 @@ export default function Training() {
                   <TiTick />
                 </section>
                 <section className={styles.items_list}>
-                  <p className="ptag">I. BEST GOAL</p>
+                  <p className="ptag">BEST GOAL</p>
                   <span>
                     Mentoring Students to Clear Exam with All India IAS First
                     Rank
@@ -29,7 +29,7 @@ export default function Training() {
                   <TiTick />
                 </section>
                 <section className={styles.items_list}>
-                  <p className="ptag">II. BEST CHOICE FOR BEGINNERS </p>
+                  <p className="ptag">BEST CHOICE FOR BEGINNERS </p>
                   <span>Emphasis on Basic Concepts Meaning, Examples</span>
                 </section>
               </section>
@@ -39,9 +39,7 @@ export default function Training() {
                   <TiTick />
                 </section>
                 <section className={styles.items_list}>
-                  <p className="ptag">
-                    III. BEST PRELIMS PRINTED STUDY MATERIALS{" "}
-                  </p>
+                  <p className="ptag">BEST PRELIMS PRINTED STUDY MATERIALS </p>
                   <span>
                     Chapter Wise and Subject Wise Prelims Complete Study
                     Materials{" "}
@@ -54,7 +52,7 @@ export default function Training() {
                   <TiTick />
                 </section>
                 <section className={styles.items_list}>
-                  <p className="ptag">IV. BEST GS PRELIMS CLASS ROOM COURSE </p>
+                  <p className="ptag">BEST GS PRELIMS CLASS ROOM COURSE </p>
                   <span>
                     IAS 100 Percent Prelims Syllabus Coverage with Previous
                     Year’s Questions Answers
@@ -67,9 +65,7 @@ export default function Training() {
                   <TiTick />
                 </section>
                 <section className={styles.items_list}>
-                  <p className="ptag">
-                    V. BEST CSAT PRELIMS PROBLEMS PRACTICE{" "}
-                  </p>
+                  <p className="ptag">BEST CSAT PRELIMS PROBLEMS PRACTICE </p>
                   <span>
                     10,000 APTITUDE (Mathematics, Reasoning English) Multiple
                     Choice Questions Practice{" "}
@@ -82,7 +78,7 @@ export default function Training() {
                   <TiTick />
                 </section>
                 <section className={styles.items_list}>
-                  <p className="ptag">VI. BEST GS PRELIMS QUESTIONS PRACTICE</p>
+                  <p className="ptag">BEST GS PRELIMS QUESTIONS PRACTICE</p>
                   <span>
                     10,000 GS Prelims (Science, History, Geography, Economy,
                     Polity, Environment) Multiple Choice Questions Practice
@@ -95,9 +91,7 @@ export default function Training() {
                   <TiTick />
                 </section>
                 <section className={styles.items_list}>
-                  <p className="ptag">
-                    VII. Best Mains Printed Study Materials{" "}
-                  </p>
+                  <p className="ptag">Best Mains Printed Study Materials </p>
                   <span>
                     Chapter Wise and Subject Wise Mains Complete Study Materials{" "}
                   </span>
@@ -110,7 +104,7 @@ export default function Training() {
                 </section>
                 <section className={styles.items_list}>
                   <p className="ptag">
-                    VIII. BEST GS PAPER I, II, III, ETHICS CLASS ROOM COURSES{" "}
+                    BEST GS PAPER I, II, III, ETHICS CLASS ROOM COURSES{" "}
                   </p>
                   <span>
                     IAS 100 Percent GS, Essay, Ethics Mains Syllabus Coverage
@@ -125,7 +119,7 @@ export default function Training() {
                 </section>
                 <section className={styles.items_list}>
                   <p className="ptag">
-                    IX. BEST MAINS GS, ESSAY, ETHICS, ESSAY, LANGUAGES QUESTIONS
+                    BEST MAINS GS, ESSAY, ETHICS, ESSAY, LANGUAGES QUESTIONS
                     PRACTICE{" "}
                   </p>
                   <span>
@@ -141,7 +135,7 @@ export default function Training() {
                 </section>
                 <section className={styles.items_list}>
                   <p className="ptag">
-                    X.BEST SCORING OPTIONAL SUBJECT CLASS ROOM COURSES{" "}
+                    BEST SCORING OPTIONAL SUBJECT CLASS ROOM COURSES{" "}
                   </p>
                   <span>
                     100 Percent Optional Subject Syllabus Coverage with Previous
@@ -155,7 +149,7 @@ export default function Training() {
                   <TiTick />
                 </section>
                 <section className={styles.items_list}>
-                  <p className="ptag">XI. BEST INTERVIEW TRAINING</p>
+                  <p className="ptag">BEST INTERVIEW TRAINING</p>
                   <span>
                     100 Mock Interviews (as per interview date) before real
                     Interview. Accompanying Students and Face To Face Personal
@@ -169,7 +163,7 @@ export default function Training() {
                   <TiTick />
                 </section>
                 <section className={styles.items_list}>
-                  <p className="ptag">XII. BEST LIFE TIME VALIDITY </p>
+                  <p className="ptag">BEST LIFE TIME VALIDITY </p>
                   <span>
                     Mentoring up to Seeing Student Name in IAS Official
                     Selection List{" "}

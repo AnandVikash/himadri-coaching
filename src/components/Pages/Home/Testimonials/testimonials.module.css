@@ -1,0 +1,92 @@
+.reviews_wrapper {
+  background-color: var(--bg);
+  padding: 40px 0px;
+  margin-top: 40px;
+}
+.reviews_wrapper h2 {
+  text-align: center;
+  font-size: var(--step-8);
+  margin-bottom: 20px;
+  color: red;
+}
+.slider_review_item {
+  padding: 20px 0px;
+  height: 100%;
+}
+.slide_review {
+  padding-bottom: 20px;
+  background-color: var(--white);
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  min-height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  height: 100%;
+}
+.slide_review:hover {
+  transform: scale(1.05);
+  border: 1px solid rgb(221, 40, 40);
+}
+.author_container {
+  padding: 0px 20px;
+  text-align: center;
+}
+.author_text p {
+  color: var(--para-color);
+  padding: 20px 0px;
+}
+.author_details span {
+  font-size: var(--step-3);
+  color: var(--button-color);
+}
+.about_star {
+  margin: 0 auto;
+}
+.team_buttons {
+  text-align: center;
+  width: 20%;
+  margin: 30px auto 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.team_buttons button {
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--button-color);
+  color: var(--white) !important;
+  fill: var(--white) !important;
+  border: 2px solid var(--white);
+}
+.team_buttons button svg {
+  font-size: var(--step-0);
+  color: var(--white);
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .reviews_wrapper {
+    margin-top: 0px;
+  }
+  .reviews_width {
+    width: 90%;
+  }
+  .team_buttons {
+    width: 40%;
+  }
+}
+.reviews_items > a {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+  background-color: var(--white);
+  border: 2px solid var(--white);
+  color: var(--primary);
+  font-size: var(--step-0);
+  padding: 10px 20px;
+  width: fit-content;
+  margin: 30px auto 10px;
+  border-radius: 3px;
+  font-weight: 600;
+}

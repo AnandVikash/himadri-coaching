@@ -16,11 +16,7 @@ export default function ContactUs() {
                 Online live and offline classes Register Now Kannada and English
                 medium classes
               </h3>
-              <form
-                className={styles.form}
-                method="POST"
-                action="https://digikit.in/forms/siu-ka-pha/contact.php"
-              >
+              <form className={styles.form} method="POST" action="">
                 <div className={styles.input_logo}>
                   <FaUserCircle />
                   <input

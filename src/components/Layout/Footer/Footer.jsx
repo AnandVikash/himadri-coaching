@@ -20,13 +20,13 @@ export default function Footer() {
           </section>
           <section className={styles.items}>
             <section className={styles.logo}>
-              <Image
-                src={"/assets/himadri-logo.png"}
-                width={250}
-                height={100}
-                alt="Picture of the author"
-                className={styles.logo_image}
-              />
+              <div>
+                <h3 className="title">Kalyan Nagar</h3>
+                <p className="ptag">
+                  Service Road, Above Arunagiri TVS Show Room besides KIA Show
+                  Room
+                </p>
+              </div>
               <p className="ptag">
                 <strong>Email Address :</strong> info@himalaiias.com
               </p>
@@ -34,21 +34,19 @@ export default function Footer() {
                 <strong>On-Call Service :</strong> +917975057610
               </p>
             </section>
-            <section className={styles.footer_details}>
-              <div>
-                <h3 className="title">Kalyan Nagar</h3>
-                <p className="ptag">
-                  Service Road, Above Arunagiri TVS Show Room besides KIA Show
-                  Room Mobile No 79750 57610
-                </p>
-              </div>
+            <section className={styles.logo}>
               <div>
                 <h3 className="title">Rajajinagar</h3>
                 <p className="ptag">
-                  ESI hospital Road, Near Old Police Station Mobile No 97426
-                  92750{" "}
+                  ESI hospital Road, Near Old Police Station
                 </p>
               </div>
+              <p className="ptag">
+                <strong>Email Address :</strong> info@himalaiias.com
+              </p>
+              <p className="ptag">
+                <strong>On-Call Service :</strong> +917975057610
+              </p>
             </section>
             <section className={styles.social_media}>
               <h3 className="title">Quick Links</h3>
@@ -81,18 +79,17 @@ export default function Footer() {
               </ul>
             </section>
           </section>
-
           {/* Branches */}
           <section className={styles.branches}>
             <h3 className="title">Classes At</h3>
             <p className="ptag">
-              KALYANNAGAR | HOSAKOTE | MARATHHALLI | KORAMANGALA | JAYANAGAR |
-              VIJAYANAGAR |
+              KALYANNAGAR | RAJAJINAGAR | KORAMANGALA | JAYANAGAR | SAHAKARNAGAR
+              | MARATHAHALLI | 8 TH MILE | ONLINE LIVE
             </p>
-            <span>
+            {/* <span>
               RAJAJINAGAR | MALLESHWARAM | 8 TH MILE | SAHAKARNAGAR | ONLINE
               LIVE
-            </span>
+            </span> */}
           </section>
         </section>
         <section className={styles.copy_rights}>

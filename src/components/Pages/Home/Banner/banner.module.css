@@ -6,8 +6,16 @@
   width: 100%;
   height: auto;
 }
+.banner_img {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: none;
+}
 .banner_items {
   position: relative;
+}
+.mobile_banner {
+  width: 100%;
 }
 .banner_content {
   position: absolute;
@@ -76,8 +84,13 @@
   color: var(--button-color);
   font-size: var(--step-10);
 }
-
 @media (max-width: 1150px) {
+  .banner_items {
+    display: none;
+  }
+  .banner_img {
+    display: flex;
+  }
   .banner_content {
     top: 50%;
     left: 50%;

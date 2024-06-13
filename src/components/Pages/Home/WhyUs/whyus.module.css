@@ -7,6 +7,7 @@
 .whyus_heading h2 {
   font-size: var(--step-8);
   text-align: center;
+  color: red;
 }
 .whyus_heading p {
   /* width: 50%; */
@@ -46,4 +47,24 @@
   font-size: var(--step--2);
   color: var(--para-color);
   padding-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    margin: 0px;
+  }
+  .whyus_heading {
+    padding: 10px 0xp;
+  }
+  .whyus_heading p {
+    padding: 10px 0px;
+  }
+  .box_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .box_items {
+    width: 90%;
+    margin: 2% auto;
+  }
 }

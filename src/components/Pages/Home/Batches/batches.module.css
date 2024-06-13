@@ -1,5 +1,5 @@
 .wrapper_img {
-  background-image: url("/assets/wb-bg.jpg");
+  background-image: url("/assets/tranparence-bg.jpg");
 
   /* Set a specific height */
   /* padding: 40px 0px; */
@@ -36,9 +36,9 @@
   margin-bottom: 10px;
 }
 .batches_container {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  /* margin-left: 10px; */
   margin: 10px;
   padding: 7px;
 }
@@ -49,6 +49,7 @@
   color: var(--black);
 }
 .batches_list {
+  text-align: left;
   margin-left: 15px;
 }
 .batches_list p {
@@ -56,4 +57,20 @@
   font-size: var(--step-1);
   /* font-weight: 600; */
   color: var(--para-color);
+}
+
+@media (max-width: 700px) {
+  .wrapper_text {
+    width: 90%;
+  }
+  .batches_container {
+    width: 100%;
+    text-align: left;
+  }
+  .batches_icon svg {
+    font-size: var(--step-6);
+  }
+  .batches_list {
+    margin-left: 13px;
+  }
 }
