@@ -10,49 +10,21 @@ export default function Team() {
       <section className={styles.content}>
         <Container width>
           <section className={styles.about_container}>
-            <section className={styles.about_section}>
-              <section>
-                <Image
-                  src="https://placehold.jp/400x400.png"
-                  width={400}
-                  height={400}
-                  alt="Picture of the author"
-                  // style={{ objectFit: "cover" }}
-                />
-              </section>
-              <section>
-                <h2>Join The Success Team Creators Of</h2>
-                <ul className={styles.ranker_details}>
-                  <li className={styles.ranker_text}>
-                    <span>
-                      <TiTick />
-                    </span>
-                    <p className="ptag">IAS 1st Rank</p>
-                  </li>
-                  <li className={styles.ranker_text}>
-                    <span>
-                      <TiTick />
-                    </span>{" "}
-                    <p className="ptag">Youngest IPS Officers</p>
-                  </li>
-                  <li className={styles.ranker_text}>
-                    <span>
-                      <TiTick />
-                    </span>{" "}
-                    <p className="ptag">KAS 1st Rank</p>
-                  </li>
-                  <li className={styles.ranker_text}>
-                    <span>
-                      <TiTick />
-                    </span>{" "}
-                    <p className="ptag">3000+ selections in Elite Services</p>
-                  </li>
-                </ul>
-                <section className={styles.ranker_name}>
-                  <h3>Mr. Mithun IPS</h3>
-                </section>
-              </section>
-            </section>
+            <Image
+              src={"/assets/desktop_candidate_profile.jpg"}
+              width={1520}
+              height={520}
+              alt="Picture of the author"
+            />
+          </section>
+          <section className={styles.mobile_image}>
+            <Image
+              src={"/assets/phone_candidate_profile.jpg"}
+              width={390}
+              height={360}
+              alt="Picture of the author"
+              className={styles.mobile_banner}
+            />
           </section>
         </Container>
       </section>

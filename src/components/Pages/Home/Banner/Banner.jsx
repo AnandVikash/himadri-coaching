@@ -41,7 +41,7 @@ export default function Banner() {
       </section>
       <section className={styles.banner_img}>
         <Image
-          src={"/assets/ban-mobile.jpg"}
+          src={"/assets/banner_mobile.jpeg"}
           width={360}
           height={330}
           alt="Picture of the author"

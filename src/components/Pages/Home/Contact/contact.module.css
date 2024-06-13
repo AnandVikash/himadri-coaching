@@ -92,6 +92,8 @@
     width: 100%;
   }
   .form_wrapper h3 {
-    font-size: var(--step-8);
+    font-size: var(--step-6);
+    /* border: 2px solid red; */
+    width: 100%;
   }
 }

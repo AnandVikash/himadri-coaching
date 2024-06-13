@@ -115,4 +115,10 @@
   .banner_content {
     display: none;
   }
+  .banner_img {
+    width: 100%;
+  }
+  .mobile_banner {
+    width: 100%;
+  }
 }
