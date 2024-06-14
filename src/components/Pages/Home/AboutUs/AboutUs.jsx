@@ -13,7 +13,7 @@ export default function AboutUS() {
             <section className={styles.about_section}>
               <section>
                 <Image
-                  src={"/assets/avatar.jpg"}
+                  src={"/assets/keshav.jpg"}
                   width={750}
                   height={400}
                   alt="Picture of the author"
@@ -23,25 +23,27 @@ export default function AboutUS() {
               </section>
               <section>
                 <div className={styles.about_content}>
-                  <span>About Me</span>
+                  <span>About Himalai Keshav Sir</span>
                   <p className="ptag">
-                    Since 1998, Master Mentor Keshav Sir made 3000+ Indian
-                    Administrators IAS, IPS, IFS, IRS, KAS and Armed Force
-                    Officers CDS, AFCAT, INET, AC CAPF And Central Government
-                    Officers Group &apos;A&apos; & &apos;B&apos; officers Sir
-                    Students Serving in more than 17 States and Union
-                    Territories
+                    Since 1998, Master Mentor Himalai Keshav Sir made 3000+
+                    Indian Administrators IAS, IPS, IFS, IRS, KAS and Armed
+                    Force Officers CDS, AFCAT, INET, AC CAPF and Central
+                    Government Officers Group &apos;A&apos; & &apos;B&apos;
+                    officers. Sir Students Serving in more than 17 States, and
+                    Union Territories Foreign Countries as High Commissioners,
+                    Ambassador
                   </p>
                 </div>
                 <ul className={styles.listing_items}>
                   <p>Under Sir Mentorship</p>
                   <li>
                     Yogesh Mishra become Commissioner, Today Yogesh Mishra
-                    Eldest Sister is IPS, Brother is IAS, Brothe&apos;rs Wife
+                    Eldest Sister is IPS, Brother is IAS, Brother&apos;s Wife
                     also IAS, Youngest Sister is IAS
                   </li>
-                  <li>Sreenidhi Become Youngest IAS Sub District Magistrate</li>
-                  <li>Nirmala become KSPS officer</li>
+                  <li>Shilpi Srivatsav is IAS District Magistrate</li>
+                  <li>Doreen is IFS High Commissioners</li>
+                  <li>Nirmala is KSPS</li>
                 </ul>
               </section>
             </section>

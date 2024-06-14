@@ -26,6 +26,10 @@
 .form_wrapper > section {
   width: 50%;
 }
+.form_wrapper h3 {
+  width: 85%;
+  font-size: var(--step-4) !important;
+}
 .form {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 20px 10px;
@@ -87,12 +91,13 @@
   .form_wrapper {
     display: flex;
     flex-direction: column;
+    margin: 0px;
   }
   .form_wrapper > section {
     width: 100%;
   }
   .form_wrapper h3 {
-    font-size: var(--step-6);
+    font-size: var(--step-3) !important;
     /* border: 2px solid red; */
     width: 100%;
   }

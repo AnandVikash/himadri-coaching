@@ -25,18 +25,21 @@
   border-radius: 2%;
   width: 90%;
   margin: 0 auto;
+  border-radius: 25px;
 }
 .about_content {
   padding: 20px 0px;
 }
 .about_content span {
   font-size: var(--step-6);
+  font-weight: 600;
   color: var(--button-color);
   /* font-weight: 600; */
 }
 .about_content p {
   /* width: 70%; */
   font-size: var(--step--2);
+  font-weight: 600;
   color: var(--para-color);
   padding-top: 10px;
   line-height: 1.8;
@@ -46,10 +49,12 @@
 }
 .listing_items p {
   font-size: var(--step-6);
+  font-weight: 600;
   color: var(--button-color);
 }
 .listing_items li {
   font-size: var(--step--2);
+  font-weight: 600;
   color: var(--para-color);
   padding-top: 10px;
   line-height: 1.3;

@@ -38,6 +38,7 @@
 .author_text p {
   color: var(--para-color);
   padding: 20px 0px;
+  font-weight: 600;
 }
 .author_details span {
   font-size: var(--step-3);

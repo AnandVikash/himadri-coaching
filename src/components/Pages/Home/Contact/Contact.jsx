@@ -13,16 +13,20 @@ export default function ContactUs() {
           <section className={styles.form_wrapper}>
             <section>
               <h3 className="title">
-                Online live and offline classes Register Now Kannada and English
-                medium classes
+                Online Live and Class Room Offline classes. Register Now Kannada
+                and English medium classes
               </h3>
-              <form className={styles.form} method="POST" action="">
+              <form
+                className={styles.form}
+                method="POST"
+                action="https://digikit.in/forms/himadri/contact.php"
+              >
                 <div className={styles.input_logo}>
                   <FaUserCircle />
                   <input
                     type="text"
-                    name="name"
-                    id="name"
+                    name="fname"
+                    id="fname"
                     placeholder="Enter Your Name"
                   />
                 </div>

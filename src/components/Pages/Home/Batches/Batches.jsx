@@ -12,7 +12,7 @@ export default function Batches() {
       <section className={styles.wrapper_img}>
         <section className={styles.wrapper_bg}></section>
         <section className={styles.wrapper_text}>
-          <h2>Best KAS coaching in Bangalore </h2>
+          <h2>Class Features</h2>
           <section className={styles.batches_container}>
             <section className={styles.batches_icon}>
               <TiTick />

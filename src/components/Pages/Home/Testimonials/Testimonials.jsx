@@ -12,7 +12,7 @@ export default function Testimonials() {
   return (
     <section className={styles.reviews_wrapper} id="testimonials_slider">
       <Container width>
-        <h2>Himalai Toppers Testimonials</h2>
+        <h2>Himalai Keshav Sir&apos;s Toppers Testimonials</h2>
         <section className={styles.reviews_items}>
           <Swiper
             slidesPerView={1}

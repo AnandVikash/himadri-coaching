@@ -66,10 +66,14 @@
   .header_contact ul li {
     display: flex;
     padding: 0px 5px;
+    gap: 0px;
   }
   .header_contact_icon {
   }
   .header_contact_icon svg {
+    color: var(--white);
+  }
+  .header_contact_info a {
     color: var(--white);
   }
 }

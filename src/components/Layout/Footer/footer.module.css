@@ -14,6 +14,7 @@
   font-size: var(--step-5);
 }
 .footer_heading p {
+  font-weight: 600;
   text-align: center;
   color: var(--black);
 }
@@ -40,6 +41,11 @@
 }
 .logo p {
   padding: 5px 0px;
+  font-weight: 600;
+  color: var(--black);
+}
+.logo p a {
+  display: inline;
   color: var(--black);
 }
 .social_media svg {
@@ -61,6 +67,7 @@
   font-size: var(--step-5);
 }
 .branches p {
+  font-weight: 600;
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -85,6 +92,7 @@
   letter-spacing: 1.8px;
   color: var(--black);
   display: flex;
+  font-weight: 600;
 }
 .copy_rights p a {
   color: var(--button-color);

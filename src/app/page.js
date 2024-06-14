@@ -41,7 +41,7 @@ export default function Home() {
               {/* <i className="fa-solid fa-phone"></i> */}
             </div>
             <div className={styles.mobile_bottom_text}>
-              <a href="tel:+919740346715"> Call Us</a>
+              <a href="tel:+917975057610"> Call Us</a>
             </div>
           </div>
         </div>

@@ -13,8 +13,9 @@ export default function Team() {
             <Image
               src={"/assets/desktop_candidate_profile.jpg"}
               width={1520}
-              height={520}
+              height={500}
               alt="Picture of the author"
+              style={{ objectFit: "contain" }}
             />
           </section>
           <section className={styles.mobile_image}>
@@ -23,6 +24,7 @@ export default function Team() {
               width={390}
               height={360}
               alt="Picture of the author"
+              style={{ objectFit: "contain" }}
               className={styles.mobile_banner}
             />
           </section>

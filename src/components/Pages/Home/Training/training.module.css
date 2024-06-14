@@ -7,6 +7,8 @@
   color: red;
 }
 .training_container p {
+  /* font-size: var(--step--2); */
+  font-weight: 600;
   text-align: center;
   color: var(--black);
   font-size: var(--step-2);

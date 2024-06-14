@@ -96,7 +96,7 @@ export default function Popup() {
         <form
           className={`${styles.pop_up_form}`}
           method="POST"
-          action=""
+          action="https://digikit.in/forms/himadri/popup.php"
           id="pop_upform"
           name="pop_upform"
           onSubmit={handleSubmit}

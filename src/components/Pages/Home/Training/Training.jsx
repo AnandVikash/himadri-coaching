@@ -9,9 +9,9 @@ export default function Training() {
       <section className={styles.content}>
         <Container width>
           <section className={styles.training_container}>
-            <h2>Best Exclusive Separate Classes for IAS from Himadri </h2>
+            <h2>Best Exclusive Separate Classes for IAS from Himalai </h2>
             <p className="ptag">
-              (Sister concern of Himalai IAS classes since 1998)
+              (Himadri is Sister concern of Himalai owned by Keshav Sir)
             </p>
             <section className={styles.items_content}>
               <section className={styles.items_section}>
@@ -33,7 +33,7 @@ export default function Training() {
                 </section>
                 <section className={styles.items_list}>
                   <p className="ptag">BEST CHOICE FOR BEGINNERS </p>
-                  <span>Emphasis on Basic Concepts Meaning, Examples</span>
+                  <span>Emphasis on Basic Concepts, Meaning, Examples</span>
                 </section>
               </section>
 
@@ -45,7 +45,7 @@ export default function Training() {
                   <p className="ptag">BEST PRELIMS PRINTED STUDY MATERIALS </p>
                   <span>
                     Chapter Wise and Subject Wise Prelims Complete Study
-                    Materials{" "}
+                    Materials
                   </span>
                 </section>
               </section>
@@ -71,7 +71,7 @@ export default function Training() {
                   <p className="ptag">BEST CSAT PRELIMS PROBLEMS PRACTICE </p>
                   <span>
                     10,000 APTITUDE (Mathematics, Reasoning English) Multiple
-                    Choice Questions Practice{" "}
+                    Choice Previous Years Questions Practice{" "}
                   </span>
                 </section>
               </section>
@@ -84,7 +84,8 @@ export default function Training() {
                   <p className="ptag">BEST GS PRELIMS QUESTIONS PRACTICE</p>
                   <span>
                     10,000 GS Prelims (Science, History, Geography, Economy,
-                    Polity, Environment) Multiple Choice Questions Practice
+                    Polity, Environment) Multiple Choice Previous Years
+                    Questions Practice
                   </span>
                 </section>
               </section>
@@ -169,7 +170,7 @@ export default function Training() {
                   <p className="ptag">BEST LIFE TIME VALIDITY </p>
                   <span>
                     Mentoring up to Seeing Student Name in IAS Official
-                    Selection List{" "}
+                    Selection List
                   </span>
                 </section>
               </section>

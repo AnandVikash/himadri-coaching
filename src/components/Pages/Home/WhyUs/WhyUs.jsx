@@ -14,7 +14,7 @@ export default function WhyUs() {
               <h2>Why Double Course Coaching Classes </h2>
               <p className="ptag">
                 Mentoring Students to Possess Secured Government Position as
-                Immediate Goal Along with Mentoring Students to Become IAS
+                Immediate Goal along with Mentoring Students to Become IAS
                 DISTRICT MAGISTRATE as Ultimate Goal{" "}
               </p>
               <span>Double Results Guarantee </span>
@@ -144,10 +144,12 @@ export default function WhyUs() {
                   alt="Picture of the author"
                 />
                 <p className="ptag">
-                  1. IAS GS Prelims 10,000 Chapter wise Questions Practice
+                  1. IAS GS Prelims 10,000 Chapter wise Previous Years Questions
+                  Practice
                 </p>
                 <p className="ptag">
-                  2. 10, 000 Maths, Reasoning, English Questions Practice
+                  2. 10, 000 Maths, Reasoning, English Previous Years Questions
+                  Practice
                 </p>
               </section>
 
@@ -163,7 +165,7 @@ export default function WhyUs() {
                   1. IAS GS Prelims 5 Revision Classes for clarity & memorising
                 </p>
                 <p className="ptag">
-                  2. APTITUDE 5 Revision classes for clarity & memorising
+                  2. APTITUDE 3 Revision classes for clarity & memorising
                 </p>
               </section>
             </section>

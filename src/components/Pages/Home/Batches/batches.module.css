@@ -55,7 +55,7 @@
 .batches_list p {
   color: var(--white) !important;
   font-size: var(--step-1);
-  /* font-weight: 600; */
+  font-weight: 600;
   color: var(--para-color);
 }
 
