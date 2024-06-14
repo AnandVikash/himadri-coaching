@@ -44,6 +44,15 @@
   font-size: var(--step-10);
   color: var(--button-color);
 }
+.box_items ul li {
+  width: 90%;
+  font-size: var(--step--2);
+  font-weight: 600;
+  color: var(--para-color);
+  padding-top: 10px;
+  list-style: circle;
+  margin-left: 10px;
+}
 .box_items p {
   width: 90%;
   font-size: var(--step--2);

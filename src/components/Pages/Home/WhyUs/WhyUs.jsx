@@ -29,9 +29,18 @@ export default function WhyUs() {
                   alt="Picture of the author"
                 />
                 {/* <ImAndroid /> */}
-                <p className="ptag">
-                  Mentoring Students to CLEAR EXAM WITH ALL INDIA IAS FIRST RANK{" "}
-                </p>
+                <ul>
+                  <li>
+                    {" "}
+                    Mentoring Students to CLEAR EXAM WITH ALL INDIA IAS FIRST
+                    RANK{" "}
+                  </li>
+                  <li>
+                    {" "}
+                    Mentoring Students to CLEAR EXAM WITH ALL INDIA IAS FIRST
+                    RANK{" "}
+                  </li>
+                </ul>
               </section>
 
               <section className={styles.box_items}>
@@ -42,10 +51,13 @@ export default function WhyUs() {
                   height={30}
                   alt="Picture of the author"
                 />
-                <p className="ptag">
-                  Coaching Students for CLEARING GOVERNMENT OF INDIA GROUP “A” &
-                  “B” OFFICERS EXAM
-                </p>
+                <ul>
+                  <li>
+                    {" "}
+                    Coaching Students for CLEARING GOVERNMENT OF INDIA GROUP “A”
+                    & “B” OFFICERS EXAM
+                  </li>
+                </ul>
               </section>
 
               <section className={styles.box_items}>
@@ -56,12 +68,10 @@ export default function WhyUs() {
                   height={30}
                   alt="Picture of the author"
                 />
-                <p className="ptag">
-                  1. Teaching Common Subjects for all exams
-                </p>
-                <p className="ptag">
-                  2. Teaching Exam Specific Special Subjects{" "}
-                </p>
+                <ul>
+                  <li>Teaching Common Subjects for all exams</li>
+                  <li>Teaching Exam Specific Special Subjects</li>
+                </ul>
               </section>
 
               <section className={styles.box_items}>
@@ -72,10 +82,12 @@ export default function WhyUs() {
                   height={30}
                   alt="Picture of the author"
                 />
-                <p className="ptag">
-                  1. Teaching from Mentors (Hand Written) Exam Passing Notes
-                </p>
-                <p className="ptag">2. Teaching from Printed Study Materials</p>
+                <ul>
+                  <li>
+                    Teaching from Mentors (Hand Written) Exam Passing Notes
+                  </li>
+                  <li>Teaching from Printed Study Materials</li>
+                </ul>
               </section>
 
               <section className={styles.box_items}>
@@ -86,12 +98,12 @@ export default function WhyUs() {
                   height={30}
                   alt="Picture of the author"
                 />
-                <p className="ptag">
-                  1. Teaching Chapter Wise Basics in Every Subject{" "}
-                </p>
-                <p className="ptag">
-                  1. Teaching Previous Year’s Question Answers From Day One
-                </p>
+                <ul>
+                  <li>Teaching Chapter Wise Basics in Every Subject</li>
+                  <li>
+                    Teaching Previous Year’s Question Answers From Day One
+                  </li>
+                </ul>
               </section>
 
               <section className={styles.box_items}>
@@ -102,11 +114,13 @@ export default function WhyUs() {
                   height={30}
                   alt="Picture of the author"
                 />
-                <p className="ptag">
-                  1. Conducting Weekly Tests On Multiple Choice and Descriptive
-                  Questions
-                </p>
-                <p className="ptag">2. Conducting Fortnight Oral Tests</p>
+                <ul>
+                  <li>
+                    Conducting Weekly Tests On Multiple Choice and Descriptive
+                    Questions
+                  </li>
+                  <li>Conducting Fortnight Oral Tests</li>
+                </ul>
               </section>
 
               <section className={styles.box_items}>
@@ -117,8 +131,10 @@ export default function WhyUs() {
                   height={30}
                   alt="Picture of the author"
                 />
-                <p className="ptag">1. Mentor’s Face to Face Interaction</p>
-                <p className="ptag">2. Mentor’s Tele Call Interactions</p>
+                <ul>
+                  <li>Mentor’s Face to Face Interaction</li>
+                  <li>Mentor’s Tele Call Interactions</li>
+                </ul>
               </section>
 
               <section className={styles.box_items}>
@@ -129,10 +145,12 @@ export default function WhyUs() {
                   height={30}
                   alt="Picture of the author"
                 />
-                <p className="ptag">1. Mentorship from Mater Mentor</p>
-                <p className="ptag">
-                  2. Teaching from Subject Experts and Exam passed Faculties
-                </p>
+                <ul>
+                  <li>Mentorship from Mater Mentor</li>
+                  <li>
+                    Teaching from Subject Experts and Exam passed Faculties
+                  </li>
+                </ul>
               </section>
 
               <section className={styles.box_items}>
@@ -143,14 +161,16 @@ export default function WhyUs() {
                   height={30}
                   alt="Picture of the author"
                 />
-                <p className="ptag">
-                  1. IAS GS Prelims 10,000 Chapter wise Previous Years Questions
-                  Practice
-                </p>
-                <p className="ptag">
-                  2. 10, 000 Maths, Reasoning, English Previous Years Questions
-                  Practice
-                </p>
+                <ul>
+                  <li>
+                    IAS GS Prelims 10,000 Chapter wise Previous Years Questions
+                    Practice
+                  </li>
+                  <li>
+                    10, 000 Maths, Reasoning, English Previous Years Questions
+                    Practice
+                  </li>
+                </ul>
               </section>
 
               <section className={styles.box_items}>
@@ -161,12 +181,12 @@ export default function WhyUs() {
                   height={30}
                   alt="Picture of the author"
                 />
-                <p className="ptag">
-                  1. IAS GS Prelims 5 Revision Classes for clarity & memorising
-                </p>
-                <p className="ptag">
-                  2. APTITUDE 3 Revision classes for clarity & memorising
-                </p>
+                <ul>
+                  <li>
+                    IAS GS Prelims 5 Revision Classes for clarity & memorising
+                  </li>
+                  <li>APTITUDE 3 Revision classes for clarity & memorising</li>
+                </ul>
               </section>
             </section>
           </section>

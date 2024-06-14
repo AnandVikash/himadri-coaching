@@ -11,9 +11,9 @@ export default function AboutUS() {
           <section className={styles.about_container}>
             <h2>You Will Become IAS District Magistrate</h2>
             <section className={styles.about_section}>
-              <section>
+              <section className={styles.about_img_wrapper}>
                 <Image
-                  src={"/assets/keshav.jpg"}
+                  src={"/assets/keshav_himadri.jpg"}
                   width={750}
                   height={400}
                   alt="Picture of the author"
