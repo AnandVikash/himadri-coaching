@@ -37,6 +37,16 @@
     width: 100%;
   }
 }
+
+@media (max-width: 650px) {
+  .mobile_banner img {
+    width: 100%;
+    height: auto;
+  }
+  .banner_img {
+    width: 100%;
+  }
+}
 @media (max-width: 550px) {
   .banner_img {
     width: 100%;

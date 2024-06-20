@@ -75,9 +75,9 @@ export default function ContactUs() {
             <section className={styles.map}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7126077103535!2d77.55684730000003!3d12.990224500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3df300000d39%3A0xb85d1b2f6f378536!2sHimalai%20IAS%7C%20KAS%7C%20Rajajinagar!5e0!3m2!1sen!2sin!4v1717484164422!5m2!1sen!2sin"
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </section>
           </section>
