@@ -90,7 +90,7 @@ export default function Footer() {
             <h3 className="title">Classes At</h3>
             <p className="ptag">
               KALYANNAGAR | RAJAJINAGAR | KORAMANGALA | JAYANAGAR | SAHAKARNAGAR
-              | MARATHAHALLI | 8 TH MILE | ONLINE LIVE
+              | MARATHAHALLI | 8 TH MILE | MYSORE | ONLINE LIVE
             </p>
             {/* <span>
               RAJAJINAGAR | MALLESHWARAM | 8 TH MILE | SAHAKARNAGAR | ONLINE

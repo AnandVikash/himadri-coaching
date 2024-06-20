@@ -30,7 +30,7 @@ export default function Banner() {
           <SwiperSlide>
             <section className={styles.slider_item}>
               <Image
-                src={"/assets/main_desktop.jpg"}
+                src={"/assets/final_banner_desktop.jpg"}
                 width={1520}
                 height={520}
                 alt="Picture of the author"
@@ -41,7 +41,7 @@ export default function Banner() {
       </section>
       <section className={styles.banner_img}>
         <Image
-          src={"/assets/main_mobile.jpg"}
+          src={"/assets/final_banner_mobile.jpg"}
           width={360}
           height={330}
           alt="Picture of the author"

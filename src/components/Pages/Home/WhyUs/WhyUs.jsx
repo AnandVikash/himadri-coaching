@@ -35,11 +35,6 @@ export default function WhyUs() {
                     Mentoring Students to CLEAR EXAM WITH ALL INDIA IAS FIRST
                     RANK{" "}
                   </li>
-                  <li>
-                    {" "}
-                    Mentoring Students to CLEAR EXAM WITH ALL INDIA IAS FIRST
-                    RANK{" "}
-                  </li>
                 </ul>
               </section>
 
@@ -146,7 +141,7 @@ export default function WhyUs() {
                   alt="Picture of the author"
                 />
                 <ul>
-                  <li>Mentorship from Mater Mentor</li>
+                  <li>Mentorship from Master Mentor</li>
                   <li>
                     Teaching from Subject Experts and Exam passed Faculties
                   </li>

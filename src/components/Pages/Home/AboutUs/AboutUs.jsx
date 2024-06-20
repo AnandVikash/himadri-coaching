@@ -13,7 +13,7 @@ export default function AboutUS() {
             <section className={styles.about_section}>
               <section className={styles.about_img_wrapper}>
                 <Image
-                  src={"/assets/keshav_himadri.jpg"}
+                  src={"/assets/keshav_second.jpg"}
                   width={750}
                   height={400}
                   alt="Picture of the author"

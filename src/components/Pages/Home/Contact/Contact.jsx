@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Container from "@/components/Layout/Container";
+import Link from "next/link";
 import styles from "./contact.module.css";
 //icons
 import { FaUserCircle, FaRegEnvelope, FaPhoneAlt } from "react-icons/fa";
@@ -56,9 +57,19 @@ export default function ContactUs() {
                     placeholder="Message"
                   ></textarea>
                 </div>
-                <div>
-                  <input type="submit" value="Send Message" />
-                </div>
+                <Link href="/thankyou">
+                  <div>
+                    <input
+                      type="submit"
+                      name="submit"
+                      value="Send Message"
+                      className="btn btn-primary"
+                      onClick={(e) => {
+                        handleSubmit(e);
+                      }}
+                    />
+                  </div>
+                </Link>
               </form>
             </section>
             <section className={styles.map}>

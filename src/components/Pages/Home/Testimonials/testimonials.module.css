@@ -28,8 +28,12 @@
   transform: scale(1.05);
   border: 1px solid rgb(221, 40, 40);
 }
+.slide_author {
+  justify-content: center;
+}
 .about_img {
   border-radius: 50%;
+  margin: 0 auto;
 }
 .author_container {
   padding: 0px 20px;

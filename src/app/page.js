@@ -31,7 +31,7 @@ export default function Home() {
               <i className="fa-regular fa-calendar-check"></i>
             </div>
             <div className={styles.mobile_bottom_text}>
-              <a href="https://api.whatsapp.com/send/?phone=9740346715&text=Hi,I%20have%20a%20query">
+              <a href="https://api.whatsapp.com/send/?phone=7975057610&text=Hi,I%20have%20a%20query">
                 Whats App
               </a>
             </div>

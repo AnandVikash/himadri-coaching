@@ -11,7 +11,7 @@ export default function Team() {
         <Container width>
           <section className={styles.about_container}>
             <Image
-              src={"/assets/candidate_desktop.jpg"}
+              src={"/assets/final_candidate_desktop.jpg"}
               width={1520}
               height={500}
               alt="Picture of the author"
@@ -20,7 +20,7 @@ export default function Team() {
           </section>
           <section className={styles.mobile_image}>
             <Image
-              src={"/assets/candidate_mobile.jpg"}
+              src={"/assets/final_candidate_mobile.jpg"}
               width={390}
               height={360}
               alt="Picture of the author"

@@ -19,7 +19,7 @@ export default function Batches() {
             </section>
             <section className={styles.batches_list}>
               <p className="ptag">
-                Online & Offline classes In English& Kannada medium
+                Online & Offline classes In English & Kannada medium
               </p>
             </section>
           </section>
@@ -29,7 +29,7 @@ export default function Batches() {
             </section>
             <section className={styles.batches_list}>
               <p className="ptag">
-                Batches: Morning Morning Afternoon Evening Weekends
+                Batches: Morning Afternoon Evening Weekends
               </p>
             </section>
           </section>

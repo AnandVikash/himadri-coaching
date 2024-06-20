@@ -123,12 +123,11 @@ export default function Training() {
                 </section>
                 <section className={styles.items_list}>
                   <p className="ptag">
-                    BEST MAINS GS, ESSAY, ETHICS, ESSAY, LANGUAGES QUESTIONS
-                    PRACTICE{" "}
+                    BEST MAINS GS, ESSAY, ETHICS, LANGUAGES QUESTIONS PRACTICE{" "}
                   </p>
                   <span>
-                    GS, Essay, Ethics, Essay, Indian Language, English Previous
-                    Years Questions Based Weekly Tests{" "}
+                    GS, Essay, Ethics, Indian Language, English Previous Years
+                    Questions Based Weekly Tests{" "}
                   </span>
                 </section>
               </section>
