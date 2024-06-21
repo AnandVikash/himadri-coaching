@@ -1,9 +1,4 @@
-.wrapper {
-  /* background-image: url("/assets/himadri-bg.png"); */
-}
-.about_container {
-}
-.mobile_image {
+.mobile_container {
   display: none;
 }
 @media (max-width: 700px) {
@@ -12,6 +7,9 @@
   }
   .about_container {
     display: none;
+  }
+  .mobile_container {
+    display: flex;
   }
   .mobile_image {
     display: flex;

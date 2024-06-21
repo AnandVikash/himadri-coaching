@@ -39,8 +39,8 @@ export default function Header() {
                     <IoCallSharp />
                   </section>
                   <section className={styles.header_contact_info}>
-                    <a href="tel:+917975057610" target="_blank">
-                      +917975057610
+                    <a href="tel:7975057610" target="_blank">
+                      7975057610
                     </a>
                     {/* <a>+919740346715</a> */}
                   </section>

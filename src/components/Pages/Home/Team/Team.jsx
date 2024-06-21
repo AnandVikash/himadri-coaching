@@ -18,14 +18,31 @@ export default function Team() {
               style={{ objectFit: "contain" }}
             />
           </section>
-          <section className={styles.mobile_image}>
+          <section className={styles.mobile_container}>
             <Image
-              src={"/assets/final_candidate_mobile.jpg"}
-              width={390}
-              height={360}
+              src={"/assets/harshavardhan.jpg"}
+              width={1520}
+              height={500}
               alt="Picture of the author"
               style={{ objectFit: "contain" }}
-              className={styles.mobile_banner}
+            />
+          </section>
+          <section className={styles.mobile_container}>
+            <Image
+              src={"/assets/team_banner.jpg"}
+              width={1520}
+              height={200}
+              alt="Picture of the author"
+              style={{ objectFit: "contain" }}
+            />
+          </section>
+          <section className={styles.mobile_container}>
+            <Image
+              src={"/assets/nirmal.jpg"}
+              width={1520}
+              height={300}
+              alt="Picture of the author"
+              style={{ objectFit: "contain" }}
             />
           </section>
         </Container>

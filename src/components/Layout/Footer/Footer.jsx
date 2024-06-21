@@ -28,12 +28,12 @@ export default function Footer() {
                 </p>
               </div>
               <p className="ptag">
-                <strong>Email Address :</strong> info@himalaiias.com
+                <strong>Email Address :</strong> himadrihimalai@gmail.com
               </p>
               <p className="ptag">
                 <strong>On-Call Service :</strong>{" "}
-                <a href="tel:+917975057610" target="_blank">
-                  +917975057610
+                <a href="tel:7975057610" target="_blank">
+                  7975057610
                 </a>
               </p>
             </section>
@@ -45,12 +45,12 @@ export default function Footer() {
                 </p>
               </div>
               <p className="ptag">
-                <strong>Email Address :</strong> info@himalaiias.com
+                <strong>Email Address :</strong> himadrihimalai@gmail.com
               </p>
               <p className="ptag">
                 <strong>On-Call Service :</strong>{" "}
-                <a href="tel:+917975057610" target="_blank">
-                  +917975057610
+                <a href="tel:7975057610" target="_blank">
+                  7975057610
                 </a>
               </p>
             </section>

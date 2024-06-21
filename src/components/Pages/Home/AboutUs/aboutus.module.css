@@ -26,13 +26,20 @@
   align-items: center;
 }
 .about_img {
-  width: 250px;
+  width: 70%;
   height: 250px;
+  /* width: 250px;
+  height: 250px; */
   margin: 0 auto;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+}
+.about_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .about_content {
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 .about_content span {
   font-size: var(--step-6);
