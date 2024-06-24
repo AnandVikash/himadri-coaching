@@ -30,7 +30,7 @@ export default function Banner() {
           <SwiperSlide>
             <section className={styles.slider_item}>
               <Image
-                src={"/assets/final_banner_desktop.jpg"}
+                src={"/assets/ias-banner.jpg"}
                 width={1520}
                 height={520}
                 alt="Picture of the author"

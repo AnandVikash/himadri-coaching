@@ -11,7 +11,25 @@ export default function Team() {
         <Container width>
           <section className={styles.about_container}>
             <Image
-              src={"/assets/final_candidate_desktop.jpg"}
+              src={"/assets/harshavardhan.jpg"}
+              width={1520}
+              height={500}
+              alt="Picture of the author"
+              style={{ objectFit: "contain" }}
+            />
+          </section>
+          <section className={styles.about_container}>
+            <Image
+              src={"/assets/candi-banner.jpg"}
+              width={1520}
+              height={500}
+              alt="Picture of the author"
+              style={{ objectFit: "contain" }}
+            />
+          </section>
+          <section className={styles.about_container}>
+            <Image
+              src={"/assets/nirmal.jpg"}
               width={1520}
               height={500}
               alt="Picture of the author"
